@@ -1,11 +1,14 @@
 program VFretboard;
 
+{$MODE Delphi}
+
 uses
   Forms,
+  Interfaces,
   MainForm in 'MainForm.pas' {Form1},
   Fretboard;
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

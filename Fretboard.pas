@@ -69,7 +69,7 @@ end;
 
 procedure Register;
 begin
-  RegisterComponents('Samples', [TFretboard]);
+  RegisterComponents('Custom', [TFretboard]);
 end;
 
 procedure TFretboard.Paint;
